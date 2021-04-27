@@ -1,0 +1,221 @@
+/* GLOBAL */
+body {
+    background-color: var(--white);
+}
+
+/* HEADER */
+header {
+    height: 140px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header div#header {
+    height: 100%;
+    display: flex;
+    margin: 0 90px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header div#header div#image-header {
+    max-width: 150px;
+}
+
+header div#header div#image-header img {
+    width: 100%;
+    height: auto;
+}
+
+header div#header div#links-header a {
+    text-decoration: none;
+    color: var(--thin-gray);
+    padding: 0 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+}
+
+header div#header div#midias-header a {
+    padding: 10px;
+}
+
+header div#header div#midias-header img:hover {
+    transform: scale(1.1);
+}
+
+/* MAIN */
+main {
+    margin: 100px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main div#apresentacao-main {
+    display: grid;
+    width: 600px;
+}
+
+main div#apresentacao-main span.sub-title{
+    margin: 30px 0;
+}
+
+main div#apresentacao-main button {
+    margin: 10px 0;
+}
+
+main div#perfil-main {
+    align-self: center;
+}
+
+/* SECTION */
+section {
+    margin: 150px 250px 150px 250px;
+}
+
+/* ARTICLE */
+article {
+    margin: 0 250px 250px 250px;
+}
+
+article div#title-conhecimento{
+    text-align: -webkit-right;
+}
+
+article div#box1-article {
+    text-align: center;
+    margin: 60px 0;
+    border: 2px solid var(--purple);
+    border-radius: 15px;
+    height: auto;
+    padding: 10px 0 30px 0;
+}
+
+article div#box1-article span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 90px;
+    letter-spacing: 0.1em;
+    color: var(--purple);
+}
+
+article div#box1-article div#svg-article {
+    margin-top: 30px;
+}
+
+article div#box1-article div#svg-article img {
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+article div#box2-article {
+    text-align: center;
+    margin: 60px 0;
+    background-color: var(--purple);
+    border-radius: 15px;
+    height: auto;
+    padding: 10px 0 30px 0;
+}
+
+article div#box2-article span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 90px;
+    letter-spacing: 0.1em;
+    color: var(--white);
+    margin-bottom: 100px;
+}
+
+article div#box2-article div#svg-article {
+    margin-top: 30px;
+}
+
+article div#box2-article div#svg-article img {
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(180deg, #FBFBFB 0%, rgba(177, 99, 255, 0.997906) 23.46%, #8D1BFF 56.41%, #7F00FE 115.71%);
+    height: 385px;
+    width: 100%;
+}
+
+footer div#footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    padding-top: 150px;
+}
+
+footer div#menus-footer ul li a {
+    color: var(--thin-gray);
+    text-decoration: none;
+}
+
+footer div#menus-footer ul li{
+    list-style: none;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+}
+
+footer div#menus-footer ul li:nth-child(-n+1){
+    margin-bottom: 20px;
+}
+
+footer div#contato-footer ul li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+    color: var(--thin-gray);
+}
+
+footer div#contato-footer ul li:nth-child(-n+1){
+    color: var(--white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+footer div#midias-footer ul li {
+    list-style: none;
+    list-style: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+    color: var(--thin-gray);
+}
+
+footer div#midias-footer ul li:nth-child(-n+1){
+    color: var(--white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+footer div#midias-footer ul li a {
+    color: var(--thin-gray);
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+html, body {
+    background-color: var(--white);
+    height: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 90px;
+    text-align: center;
+}
+
+div span {
+    margin: 40px 0;
+}
+
+div span.title {
+    color: var(--purple);
+}
+
+div span.sub-title {
+    color: var(--gray);
+}
