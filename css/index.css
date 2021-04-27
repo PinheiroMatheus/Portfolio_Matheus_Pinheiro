@@ -4,29 +4,33 @@ body {
 }
 
 /* HEADER */
-header {
-    height: 140px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+header nav#header {
+    padding: 40px 90px;
 }
 
-header div#header {
-    height: 100%;
-    display: flex;
-    margin: 0 90px;
-    justify-content: space-evenly;
-    align-items: center;
+header nav div {
+    justify-content: space-between;
 }
 
-header div#header div#image-header {
+header nav#header div div#image-header {
     max-width: 150px;
 }
 
-header div#header div#image-header img {
+header nav#header div div#image-header img {
     width: 100%;
     height: auto;
 }
 
-header div#header div#links-header a {
+header nav#header div div#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+header nav#header div div#navbarNavAltMarkup div#links-header {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav#header div div#navbarNavAltMarkup div#links-header a {
     text-decoration: none;
     color: var(--thin-gray);
     padding: 0 20px;
@@ -35,14 +39,6 @@ header div#header div#links-header a {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.1em;
-}
-
-header div#header div#midias-header a {
-    padding: 10px;
-}
-
-header div#header div#midias-header img:hover {
-    transform: scale(1.1);
 }
 
 /* MAIN */
@@ -55,6 +51,7 @@ main {
 main div#apresentacao-main {
     display: grid;
     width: 600px;
+    margin-right: 50px;
 }
 
 main div#apresentacao-main span.sub-title{
@@ -65,8 +62,25 @@ main div#apresentacao-main button {
     margin: 10px 0;
 }
 
+main div#apresentacao-main div#midias-main {
+    margin-top: 20px;
+}
+
+main div#apresentacao-main div#midias-main img {
+    width: 50px;
+}
+
+main div#apresentacao-main div#midias-main img:hover {
+    transform: scale(1.1);
+}
+
 main div#perfil-main {
     align-self: center;
+}
+
+main div#perfil-main img {
+    height: auto;
+    width: 100%;
 }
 
 /* SECTION */
@@ -150,6 +164,15 @@ footer div#footer {
     justify-content: space-evenly;
     align-items: end;
     padding-top: 150px;
+}
+
+footer div#logo-footer {
+    max-width: 150px;
+}
+
+footer div#logo-footer img {
+    width: 100%;
+    height: auto;
 }
 
 footer div#menus-footer ul li a {
