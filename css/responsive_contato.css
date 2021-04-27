@@ -1,0 +1,62 @@
+@media screen and (max-width: 900px) {
+    /* HEADER */
+    header div#header {
+        margin: 0 20px;
+    }
+    /* MAIN */
+    main div#main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px 20px;
+    }
+    main div#main-content div#main-text span.title{
+        text-align: center;
+    }
+    main div#main-content div#main-text span.sub-title{
+        text-align: center;
+    }
+    main div#main-content div#main-text {
+        margin-right: 0;
+    }
+    main div#main-content div#main-text div#main-links{
+        margin: 40px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* HEADER */
+    header div#header {
+        margin: 0 20px;
+    }
+    /* MAIN */
+    main div#main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px 20px;
+    }
+    main div#main-content div#main-text span.title{
+        font-size: 35px;
+        line-height: 50px;
+        text-align: center;
+    }
+    main div#main-content div#main-text span.sub-title{
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+    main div#main-content div#main-text {
+        margin-right: 0;
+    }
+    main div#main-content div#main-text div#main-links{
+        margin: 40px 0;
+        text-align: center;
+    }
+    main div#main-content div#main-form form div input {
+        width: 280px;
+    }
+}
