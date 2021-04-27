@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+    div span.title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    div span.sub-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    div span {
+        margin: 10px 0;
+    }
+    div img {
+        width: 50px;
+    }
+}
